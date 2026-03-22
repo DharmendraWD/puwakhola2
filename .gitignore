@@ -16,3 +16,6 @@ frontend/.next/
 /frontend/.next
 frontend/.next
 .next
+
+frontend/node_modules
+backend/node_modules
