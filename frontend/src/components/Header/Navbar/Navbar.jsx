@@ -17,8 +17,8 @@ function Navbar() {
       label: 'About Us', 
       href: '#about',
       subLinks: [
-        { label: 'Our Story', href: '#story' },
-        { label: 'Mission & Vision', href: '#mission' },
+        { label: 'Financial', href: '#financial' },
+        { label: 'Management Team', href: '#management-team' },
       ]
     },
     { label: 'Projects', href: '#projects' },
