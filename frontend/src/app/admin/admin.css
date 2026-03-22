@@ -1,0 +1,54 @@
+button{
+    cursor: pointer !important;
+}
+
+
+/* Firefox */
+.my-scroll {
+  scrollbar-width: thin; 
+  scrollbar-color: rgba(255, 255, 255, 0.4) transparent;  /* thumb + track */
+}
+
+/* Chrome, Edge, Safari */
+.my-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.my-scroll::-webkit-scrollbar-track {
+  background: transparent;    /* no white background */
+}
+
+.my-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.25);  /* translucent thumb */
+  border-radius: 10px;
+  backdrop-filter: blur(8px);  /* blur effect */
+  -webkit-backdrop-filter: blur(8px);
+
+}
+
+.my-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+.multiline-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.multiline-ellipsis2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.glass-effect {
+  /* The semi-transparent background color */
+  background-color: rgba(192, 228, 255, 0.39); /* This is #c0e4ff63 */
+  
+  /* Required for Safari and older iOS browsers */
+  -webkit-backdrop-filter: blur(7px);
+  
+  /* Standard syntax for Chrome, Firefox, and Edge */
+  backdrop-filter: blur(7px);
+}

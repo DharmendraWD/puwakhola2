@@ -1,0 +1,16 @@
+a = our team heading
+b = our team para
+c = footer slogan heading
+d = foooter slogan para
+copyright = 
+developedby =
+mobNo = 
+mobNo2 = 
+location = 
+address = 
+insta = 
+twit = 
+fb = 
+yt = 
+
+
