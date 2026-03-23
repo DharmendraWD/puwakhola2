@@ -17,8 +17,8 @@ function Navbar() {
       label: 'About Us', 
       href: '#about',
       subLinks: [
-        { label: 'Financial', href: '#financial' },
-        { label: 'Management Team', href: '#management-team' },
+        { label: 'Financial', href: '/financial' },
+        { label: 'Management Team', href: '/management-team' },
       ]
     },
     { label: 'Projects', href: '#projects' },
@@ -59,7 +59,7 @@ function Navbar() {
                     {link.label}
                   </a>
                   {link.subLinks && (
-                    <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isAboutOpen ? 'rotate-180' : ''}`} />
+                    <ChevronDown className={`w-4 h-4 text-[#00b5dd] transition-transform duration-200 ${isAboutOpen ? 'rotate-180' : ''}`} />
                   )}
                 </div>
 
